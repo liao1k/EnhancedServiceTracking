@@ -1,0 +1,42 @@
+----------------------------------------------------------------------
+CCF WebApp
+----------------------------------------------------------------------
+
+CCF WebApp is the root of a web based application. Using the web 
+scripting language php with HTML and JavaScript, connecting to a MySQL
+database, WebApp can be used to create powerful data driven 
+applications. The WebApp was started in the design of the Cardio 
+Thoracic Surgery "Study Tracker" project and refined greatly in the 
+"Patient Access" system. It was then distilled out of those systems 
+into an application template system that is the "WebApp".
+
+=======================================================================
+Initial setup files. 
+=======================================================================
+application.php
+
+application.php is the main config file. You will need to change the 
+following variables.
+
+$CFG->dbhost, $CFG->dbname and $CFG->wwwhost.
+
+If you want to use Bugzilla to track application issues, you'll need to
+setup your Bugzilla project and change the variables in the Bugzilla
+parameters to connect to your server. 
+
+The Application Parameters are for titles on the web pages, and to find
+the style sheet to define the look and feel of the application.
+
+
+WebApp.css
+
+Before you can use this file, you'll need to rename it to match the
+value of $CFG->appname.
+
+========================================================================
+Page Files
+========================================================================
+
+Once the app is setup, there are three main files you will need to work
+on for each page you wish to display. 
+

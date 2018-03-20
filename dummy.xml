@@ -1,0 +1,6 @@
+<?xml version="1.0" ?> 
+<complete>
+  <option value="" selected="selected" /> 
+  <option value="0">No</option> 
+  <option value="1">Yes</option> 
+</complete>
